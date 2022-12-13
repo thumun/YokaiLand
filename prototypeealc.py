@@ -302,7 +302,7 @@ cityYokai = [
          "Run":16, 
          "Item":[], 
          "DC":3, 
-         "Intro":"When you intitally walked into town you felt a slight tremor but had thought nothing of it, but looking down you realize that the ground looks a lot like fish scales. A mysterious rock catches your eye and when you go closer to it you see a sign that declares "" (use article to see god's vacation) A giant eye stares at you and you stare back at it." , 
+         "Intro":"When you intitally walked into town you felt a slight tremor but had thought nothing of it, but looking down you realize that the ground looks a lot like fish scales. A mysterious rock catches your eye and when you go closer to it you see a sign that declares \"the Kashima deity has gone on vacation.\" You look down to see a giant eye watching you." , 
          "DefeatATK":"Try as you might, your attacks were hardly grazing the Namazue. It is simply too big to hurt. However you feel newfound power coursing through your veins and a voice rings out commanding you to move. You leap out of the way just in time to see a massive boulder appear and the Kashima deity astride it. It seems the deity has finally returned to his duty of keeping the Namazue under control." , 
          "Health":25},
         
