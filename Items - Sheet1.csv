@@ -1,0 +1,30 @@
+,,,,,,
+,Healing ,,,,,
+,name,Info,Healing,Yokai (effective against),Count (how many),category 
+,Cucumber ,Not the most delicious cucumber in the world but it could be a healthy meal-or at least part of one. ,4,"[""Kappa""]",99,heal 
+,Candy,A sweet piece of hard candy! Sure to lift up your spirits in a dark time. ,2,[Kuchisake-onna],99,heal 
+,Deep-fried food,A fried snack that you got from a street vendor. Hopefully it tastes as good as it smells. ,5,"[""Kitsune""]",99,heal 
+,Rice cooked with azuki beans ,Some leftovers from a rather nice meal that you had at a local restraunt.,10,"[""Kitsune""]",99,heal 
+,Buddhist Teachings,A monk from a shrine gave this to you to help when you need a way to center yourself. ,7,"[""Woman with a Hannya mask""]",99,heal 
+,Banishment Prayer,A handy prayer that you learned-it is said to banish yokai that possess a certain level of bloodlust from this world.   (Will not heal you.),0,"[""Woman with a Hannya mask"", ""Tsukumogami-sword""]",99,heal 
+,Liver ,Not recommended to be eaten without being cooked first but hopefully it would not cause too much damage. ,3,"[""Moryo""]",99,heal 
+,Smoked Meat ,A mystery meat that you cooked yourself.,9,"[""Amanojaku""]",99,heal 
+,,, ,,,
+,Curses,,,,,
+,name,Info,isHarmful (to target),selfHarm (can hurt user),Count (how many),category
+,Picture with needles,You have a picture of one of the other players. You can hinder their journey by sticking pins and needles into their limbs. This will injure them each turn until they go to a shrine.,"[True, -2]","[False, 0]",99,curse 
+,Steal a weapon,You go to the shrine and pray that your opponent's weapon becomes your own.,"[False, ""weapon""]","[False, 0]",99,curse 
+,Steal an item,You notice that another person on the same quest as you has an item of interest.. perhaps you can be successful in acquiring it.,"[False, ""heal""]","[False, 0]",99,curse 
+,Change Places,You manipulate the space around you to be able to swap places with another player. ,"[False, ""other""]","[False, 0]",99,curse 
+,Talisman of Harm,"You learn the art of making a talisman to harm another player. You can plan to leave this along a route that the player is expected to traverse. This is a powerful curse, and everything has a consequence. ","[True, -10]","[True, -5]",99,curse 
+,,,,,,
+,Weapons,,,,,
+,name ,Info,ATK,Yokai (effective against),Count (how many),category 
+,Sword of Kusanagi,The legendary Sword of Kusanagi has appeared before you...and its your to wield in battle. It will do a tremendous amount of damage but be cautious as a terrible curse may befall those who lose it...,15,"{False, []}",1,weapon
+,Rusty Iron Scissors ,Some rather bent scissors that you found on the side of the road. They do not seem very practical in a fight.,3,"{True, [""Kappa""]}",99,weapon 
+,Pomade,An empty tin of hair gel..well someone else's trash could be your treasure?,1,"{True, [""Kuchisake-onna""]}",99,weapon
+,Oak Stake ,A stake fashioned from the wood of an oak tree. ,4,"{True, [""Moryo""]}",99,weapon
+,Chains,Can be used to hold something in place or could be used to land a heavy blow. ,6,"{True, [""Kamaitachi""]}",99,weapon 
+,Summon Rain,The ancient magic art of summoning rain! ...Perhaps this could be useful in a specific circumstance?,0,"{True, [""Ushirogami""]}",99,weapon
+,Lute,"If you knew how to play this instrument, it could be used to make some beautiful music. However, it seems you are more interested in using it as a weapon..perhaps hitting a yokai with it?",5,"{True, [""Umizato""]}",99,weapon
+,Bottomless Barrel,One man's trash is another man's treasure! ,4,"{True, [""Umibozu""]}",99,weapon
