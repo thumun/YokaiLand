@@ -3,10 +3,10 @@ from random import choice
 
 # global var
 
-# occupancyMap = [1, 1, 1, 1, 10, 1, 2, 2, 2, 2, 10, 2, 3, 3, 3, 3, 3, 10, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+occupancyMap = [1, 1, 1, 1, 10, 1, 2, 2, 2, 2, 10, 2, 3, 3, 3, 3, 3, 10, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
 
-# test version below 
-occupancyMap = [1, 2, 10, 3, 4, 10]
+# test version be-1low 
+# occupancyMap = [1, 2, 10, 3, 4, 10]
 
 heal = [
     {"name": "Cucumber", 
@@ -570,9 +570,9 @@ def turn(player):
 
           
     
-    notCmbt = int(input("\nIs there anything else you want to do? Check Items[0], Check Weapons[1], No[2] "))
+    notCmbt = input("\nIs there anything else you want to do? Check Items[0], Check Weapons[1], No[2] ")
     
-    if notCmbt == 0: 
+    if notCmbt == "0": 
         useChoice = int(input("\nWould you like to see all [-1], healing items [0], curses [1], or exit [2]? "))
         if useChoice != 2: 
             if printItems(player, useChoice) != 1: 
@@ -628,7 +628,7 @@ def turn(player):
                             inflict(player, int(typeItm[1:]), players[inflictChoice])
             
         # should have a way to aslo see if they want to see the weapons?? 
-    elif notCmbt == 1: 
+    elif notCmbt == "1": 
         printWeapons(player)   
         # should have a way to aslo see if they want to see the items??    
 
@@ -728,6 +728,7 @@ def combat(tileNumber, player):
             player.inShrine = (True, 2)
 
     else: 
+        print(currentRegion[monster]["DefeatATK"])
         print("\nCongrats! You were able to defeat the yokai.")
         currentRegion[monster]["Health"] = originalHealth
         
