@@ -2,7 +2,7 @@
 Final Project for EALC121
 
 
-How to run the game (on the computer - tutorial assuming you have a mac system) 
+How to run the game (on the computer - tutorial assuming you have a mac system): 
 
 download prototypeealc.py -- (please save to desktop) 
 Open: Terminal
