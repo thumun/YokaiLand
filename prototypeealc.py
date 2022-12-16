@@ -688,7 +688,7 @@ def combat(tileNumber, player):
                         player.health -= currentRegion[monster]["CYes"][1][1]
                         # print(player.health)
                     else: 
-                        monster.health -= currentRegion[monster]["CYes"][1][1]
+                        currentRegion[monster]["Health"].health -= currentRegion[monster]["CYes"][1][1]
                         # print(monster.health)
                 else: 
                     print(currentRegion[monster]["CNo"][0])
@@ -696,7 +696,7 @@ def combat(tileNumber, player):
                         player.health -= currentRegion[monster]["CNo"][1][1]
                         # print(player.health)
                     else: 
-                        monster.health -= currentRegion[monster]["CNo"][1][1]
+                        currentRegion[monster]["Health"].health -= currentRegion[monster]["CNo"][1][1]
                         # print(monster.health)
 
             else: 
