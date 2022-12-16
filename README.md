@@ -14,10 +14,14 @@ Type: cd Desktop
 
 Type: python3 prototypeealc.py
 
+
 If it says command is not working (still in Terminal): 
 
 Copy/Paste: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+
 Copy/Paste: export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
 Copy/Paste: $ brew install python
 
-Then do above steps (lines 7-11) 
+
+Then do above steps
