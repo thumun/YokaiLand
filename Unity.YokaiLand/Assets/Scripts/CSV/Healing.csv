@@ -1,0 +1,9 @@
+name,Info,Healing,Yokai (effective against),Count ,category 
+Cucumber ,Not the most delicious cucumber in the world but it could be a healthy meal-or at least part of one. ,4,"[""Kappa""]",99,heal 
+Candy,A sweet piece of hard candy! Sure to lift up your spirits in a dark time. ,2,[Kuchisake-onna],99,heal 
+Deep-fried food,A fried snack that you got from a street vendor. Hopefully it tastes as good as it smells. ,5,"[""Kitsune""]",99,heal 
+Rice cooked with azuki beans ,Some leftovers from a rather nice meal that you had at a local restraunt.,10,"[""Kitsune""]",99,heal 
+Buddhist Teachings,A monk from a shrine gave this to you to help when you need a way to center yourself. ,7,"[""Woman with a Hannya mask""]",99,heal 
+Banishment Prayer,A handy prayer that you learned-it is said to banish yokai that possess a certain level of bloodlust from this world.   (Will not heal you.),0,"[""Woman with a Hannya mask"", ""Tsukumogami-sword""]",99,heal 
+Liver ,Not recommended to be eaten without being cooked first but hopefully it would not cause too much damage. ,3,"[""Moryo""]",99,heal 
+Smoked Meat ,A mystery meat that you cooked yourself.,9,"[""Amanojaku""]",99,heal 

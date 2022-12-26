@@ -1,0 +1,9 @@
+name ,Info,ATK,Yokai,Count ,category 
+Sword of Kusanagi,The legendary Sword of Kusanagi has appeared before you...and its your to wield in battle. It will do a tremendous amount of damage but be cautious as a terrible curse may befall those who lose it...,15,"{False, []}",1,weapon
+Rusty Iron Scissors ,Some rather bent scissors that you found on the side of the road. They do not seem very practical in a fight.,3,"{True, [""Kappa""]}",99,weapon 
+Pomade,An empty tin of hair gel..well someone else's trash could be your treasure?,1,"{True, [""Kuchisake-onna""]}",99,weapon
+Oak Stake ,A stake fashioned from the wood of an oak tree. ,4,"{True, [""Moryo""]}",99,weapon
+Chains,Can be used to hold something in place or could be used to land a heavy blow. ,6,"{True, [""Kamaitachi""]}",99,weapon 
+Summon Rain,The ancient magic art of summoning rain! ...Perhaps this could be useful in a specific circumstance?,0,"{True, [""Ushirogami""]}",99,weapon
+Lute,"If you knew how to play this instrument, it could be used to make some beautiful music. However, it seems you are more interested in using it as a weapon..perhaps hitting a yokai with it?",5,"{True, [""Umizato""]}",99,weapon
+Bottomless Barrel,One man's trash is another man's treasure! ,4,"{True, [""Umibozu""]}",99,weapon
