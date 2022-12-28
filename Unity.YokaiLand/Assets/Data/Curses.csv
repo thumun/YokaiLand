@@ -1,0 +1,6 @@
+name,Info,isHarmful,selfHarm,Count,category
+Picture with needles,You have a picture of one of the other players. You can hinder their journey by sticking pins and needles into their limbs. This will injure them each turn until they go to a shrine.,"[True, -2]","[False, 0]",99,curse 
+Steal a weapon,You go to the shrine and pray that your opponent's weapon becomes your own.,"[False, ""weapon""]","[False, 0]",99,curse 
+Steal an item,You notice that another person on the same quest as you has an item of interest.. perhaps you can be successful in acquiring it.,"[False, ""heal""]","[False, 0]",99,curse 
+Change Places,You manipulate the space around you to be able to swap places with another player. ,"[False, ""other""]","[False, 0]",99,curse 
+Talisman of Harm,"You learn the art of making a talisman to harm another player. You can plan to leave this along a route that the player is expected to traverse. This is a powerful curse, and everything has a consequence. ","[True, -10]","[True, -5]",99,curse 
