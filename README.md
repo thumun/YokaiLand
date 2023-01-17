@@ -1,27 +1,7 @@
 # YokaiLand
-Final Project for EALC121
 
+Originally developed as a table top game with a Python component for my final project for EALC 121 (Myth, Folklore, and Legend in Japan) 
+In accordance with being a final project, I used sources from texts/other media that we learned about in class (these sources can be seen in the Yokai Land guidebook). 
 
-How to run the game (on the computer - tutorial assuming you have a mac system): 
-
-download prototypeealc.py -- (please save to desktop) 
-
-Open: Terminal
-
-Type: ls
-
-Type: cd Desktop 
-
-Type: python3 prototypeealc.py
-
-
-If it says command is not working (still in Terminal): 
-
-Copy/Paste: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
-
-Copy/Paste: export PATH="/usr/local/opt/python/libexec/bin:$PATH"
-
-Copy/Paste: $ brew install python
-
-
-Then do above steps
+Currently, I am in the process of turning into a digital board game using Unity and C#. 
+I will also design some assets to make the combat more entertaining. 
